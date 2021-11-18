@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 1000px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+}
+p {
+    font-size: 10px;
+    line-height: 1;
+    text-align: justify;
+    background-image: url("love.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-clip: text;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
